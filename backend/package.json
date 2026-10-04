@@ -1,0 +1,21 @@
+{
+  "name": "pahadi-telemetry-guard-backend",
+  "version": "1.0.0",
+  "description": "Real-time geospatial telemetry ingestion, vector mathematics, and predictive collision alert engine for mountain blind spots.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sim": "node simulation.js",
+    "test": "node test/test_math.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  },
+  "author": "Pahadi Telemetry Systems",
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+name: pahadi_maps
+description: Pahadi Maps - a mountain road safety and mapping app
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  maplibre_gl: ^0.27.1
+  http: ^1.2.0
+  socket_io_client: ^3.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pahadi_mountains.png

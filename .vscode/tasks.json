@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Flutter: Run in Edge",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"edge"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
